@@ -1,0 +1,14 @@
+{
+  "welcomeFile": "/html5/index.html",
+  "authenticationMethod": "route",
+  "logout": {
+    "logoutEndpoint": "/do/logout"
+  },
+  "routes": [
+    {
+      "source": "^/html5/(.*)$",
+      "target": "$1",
+      "localDir": "webapp"
+    }
+  ]
+}
